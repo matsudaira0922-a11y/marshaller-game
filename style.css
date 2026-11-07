@@ -132,3 +132,9 @@ button{touch-action:none;-webkit-user-select:none;user-select:none}
  #intro .title-head .intro-sub{font-size:10px}
  .pilot-react{width:64px;height:64px;margin:8px auto 0}
 }
+#intro .title-head{padding-bottom:0}
+#intro .title-panel .intro-sub{margin:12px 0 0;font-size:13px;color:#ecd7b3;letter-spacing:.12em}
+#intro .title-panel .eyebrow{margin:0}
+@media(max-width:900px),(pointer:coarse){
+ #intro .title-panel .intro-sub{font-size:12px;margin-top:10px}
+}
