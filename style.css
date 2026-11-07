@@ -138,3 +138,9 @@ button{touch-action:none;-webkit-user-select:none;user-select:none}
 @media(max-width:900px),(pointer:coarse){
  #intro .title-panel .intro-sub{font-size:12px;margin-top:10px}
 }
+#intro.title-screen{flex-direction:column;justify-content:space-between;align-items:stretch}
+#intro .title-head{position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(560px,100%);margin:0;z-index:1}
+#intro .title-panel{position:absolute;bottom:0;left:50%;transform:translateX(-50%);margin-top:0;width:min(560px,100%);z-index:1}
+@media(max-width:900px),(pointer:coarse){
+ #intro .title-head,#intro .title-panel{width:100%}
+}
